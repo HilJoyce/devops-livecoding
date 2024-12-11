@@ -11,3 +11,6 @@ CREATE TABLE public.students
  first_name      VARCHAR(20) NOT NULL,
  last_name       VARCHAR(20) NOT NULL
 );
+
+
+
