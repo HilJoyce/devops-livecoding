@@ -54,9 +54,9 @@ jobs:
           push: ${{ github.ref == 'refs/heads/main' }}
 
   sonarcloud-analysis:
-  needs: test-backend
-  runs-on: ubuntu-22.04
-  steps:
+    needs: test-backend
+    runs-on: ubuntu-22.04
+    steps:
     - name: Checkout code
       uses: actions/checkout@v2.5.0
 
